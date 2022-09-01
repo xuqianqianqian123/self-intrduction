@@ -3,12 +3,35 @@
         <head>
             <title>Xuqian的自我介绍等</title>
             <style>
-body
-{
-	background-color:#F9EBEA;
-}
-		    h2 {color:#2C3E50;}
+                body
+                {
+	                -color:#F9EBEA;
+                }
+		        h2 {color:#2C3E50;}
             </style>
+
+            <script>
+                var number=1;
+                function fun(){
+                    if(number===1){
+                        var img = document.getElementById("img");
+                        img.src = "https://s2.loli.net/2022/07/02/axgq2vPXQGBM1ue.jpg";
+                        number=2;
+                    }
+                    if(number===2){
+                        var img = document.getElementById("img");
+                        img.src = "https://s2.loli.net/2022/07/02/JkwYGsdzRTHuPeV.png";
+                        number=3;
+                    }
+                    if(number===3){
+                        var img = document.getElementById("img");
+                        img.src = "https://s2.loli.net/2022/07/02/8tw2UNIjpxEa7zA.jpg";
+                        number=1;
+                    }
+                }
+
+                setInterval(fun,3000);
+            </script>
         </head>
         <body>
             <h2>
@@ -22,16 +45,10 @@ body
             </h2>
             <h4>
                 平时随便画的简笔画（离散数学课上作品）
-            </h4>
-            <img border="0" src="https://s2.loli.net/2022/07/02/axgq2vPXQGBM1ue.jpg" alt="灰太狼" width="200" height="150">
-            <h4>
                 吃吃喝喝
+                枪版
             </h4>
-            <img border="0" src="https://s2.loli.net/2022/07/02/JkwYGsdzRTHuPeV.png" alt="Hotpot" width="200" height='150'>
-            <h4>
-                枪版英雄无归
-            </h4>
-            <img border="0" src="https://s2.loli.net/2022/07/02/8tw2UNIjpxEa7zA.jpg" alt="蜘蛛侠+烤冷面" width="200" height='150'>
+            <img id="img" src="https://s2.loli.net/2022/07/02/axgq2vPXQGBM1ue.jpg" alt="" width="100%">
             <h2>
                 ·学习情况
             </h2>
